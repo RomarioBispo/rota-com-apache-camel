@@ -9,7 +9,7 @@ The application works as following:
 ![image](./diagrams/application-architecture1.png)
 
 ```
-The Camel route request MicroService A to get all records, then bypass the content to MicroService A through a POST request sending the all records retrieved on Microservice A. This show a minimal example how to connect two systems using apache camel.
+The Camel route request MicroService A to get all records, then bypass the content to MicroService B through a POST request sending the all records retrieved on Microservice A. This show a minimal example how to connect two systems using apache camel.
 ```
 # Getting Started
 
